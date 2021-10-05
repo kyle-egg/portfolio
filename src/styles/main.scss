@@ -1,0 +1,13 @@
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+@import "uikit/src/scss/uikit-theme.scss";
+
+* { 
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+#backgroundimage {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/949/338/392/blue-leather-cobalt-blue-texture-wallpaper-preview.jpg);
+}
