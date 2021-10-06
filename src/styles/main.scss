@@ -4,10 +4,45 @@
 
 * { 
   font-family: 'Prompt', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   text-align: center;
+  color: #d4af37;
 }
 
 #backgroundimage {
   background-image: url(https://c4.wallpaperflare.com/wallpaper/949/338/392/blue-leather-cobalt-blue-texture-wallpaper-preview.jpg);
+  height: 400px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%); 
+}
+
+#backgroundskills {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQFnLZLSztpNxw/company-background_10000/0/1600438816130?e=2159024400&v=beta&t=6TDkKfwall_8OChS2CeBzYAtlOfYG64Ywbsl4H_AGK8);
+  height: 300px; 
+  width: 101%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -200px;
+  clip-path: polygon(0 0, 0% 0, 50% 50%, 0 80%); 
+}
+
+#egg {
+  color: #d4af37;
+}
+
+h2 {
+  color: #d4af37;
+}
+
+.uk-card {
+background-color: #001a30;
+margin: 10px;
+padding: 30px;
+min-width: 150px;
+}
+
+.uk-section {
+  padding: 50px 100px;
 }
