@@ -28,7 +28,7 @@ function App() {
         </section>
         <section id="backgroundskills">
         </section>
-        <section className="uk-section">
+        <section className="uk-section" id="about">
           <h2>About</h2>
           <p>I am a newly graduated Software Engineer having worked in previous roles in marketing in the hospitality industry.</p>
           <p>I made the switch in my career due to my interest in technology, my determination to learn and problem solve in the ever changing sector.</p>
