@@ -39,13 +39,19 @@ function App() {
           <div className="uk-child-width-1-4 uk-child-width-1-6@s uk-grid-match uk-flex uk-flex-center@m uk-flex-wrap uk-flex-wrap-around uk-padding-large" uk-grid>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/html.png"/>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="50" height="50"
+                  viewBox="0 0 172 172"
+                ><g fill="none" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#d4af37"><path d="M20.47875,13.76c-1.76031,0 -3.5475,0.645 -4.81062,1.90813c-1.26313,1.26312 -1.90813,3.05031 -1.90813,4.81062v131.0425c0,1.74688 0.645,3.5475 1.90813,4.81063c1.26312,1.26312 3.05031,1.90812 4.81062,1.90812h131.0425c1.74688,0 3.5475,-0.645 4.81063,-1.90812c1.26312,-1.26313 1.90812,-3.05031 1.90812,-4.81063v-131.0425c0,-1.76031 -0.645,-3.5475 -1.90812,-4.81062c-1.26313,-1.26313 -3.05031,-1.90813 -4.81063,-1.90813zM20.64,20.64h130.72v130.72h-130.72zM42.77156,71.86375v34.77625h6.74562v-14.55281h7.08156v14.55281h6.75906v-34.77625h-6.75906v13.93469h-7.08156v-13.93469zM66.9725,71.86375v6.235h6.1275v28.54125h6.7725v-28.54125h6.18125v-6.235zM90.85094,71.86375l-2.52625,34.77625h5.84531l0.55094,-12.08031c0.215,-3.45344 0.41656,-7.83406 0.52406,-11.61h0.16125c0.51063,3.77594 1.43781,8.10281 2.10969,10.89781l2.88906,12.21469h4.79719l2.99656,-12.42969c0.65844,-2.67406 1.59906,-6.96062 2.21719,-10.68281h0.14781c-0.09406,3.72219 0.16125,8.21031 0.3225,11.51594l0.60469,12.17437h6.04688l-2.12313,-34.77625h-7.10844l-2.74125,12.59094c-0.92719,4.38063 -1.70656,8.31781 -2.21719,12.18781h-0.09406c-0.63156,-3.93719 -1.505,-7.80719 -2.48594,-12.18781l-2.78156,-12.59094zM122.49625,71.86375v34.77625h15.68156v-5.72437h-8.9225v-29.05188z"></path></g></g></svg>
                 <p className="uk-text-center">HTML</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/css.png"/>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="50" height="50"
+                  viewBox="0 0 172 172"
+                ><g fill="none" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#d4af37"><path d="M20.47875,13.76c-1.76031,0 -3.5475,0.645 -4.81062,1.90813c-1.26313,1.26312 -1.90813,3.05031 -1.90813,4.81062v131.0425c0,1.74688 0.645,3.5475 1.90813,4.81063c1.26312,1.26312 3.05031,1.90812 4.81062,1.90812h131.0425c1.74688,0 3.5475,-0.645 4.81063,-1.90812c1.26312,-1.26313 1.90812,-3.05031 1.90812,-4.81063v-131.0425c0,-1.76031 -0.645,-3.5475 -1.90812,-4.81062c-1.26313,-1.26313 -3.05031,-1.90813 -4.81063,-1.90813zM20.64,20.64h130.72v130.72h-130.72zM70.35875,66.58281c-6.75906,0 -14.02875,5.10625 -14.02875,18.22125c0,9.84969 4.23281,17.17312 13.115,17.17312c2.365,0 4.27313,-0.36281 5.25406,-0.81969l-0.67188,-5.68406c-0.81969,0.26875 -2.12312,0.52406 -3.25187,0.52406c-4.12531,0 -7.26969,-3.25187 -7.26969,-11.55625c0,-8.62687 3.45344,-11.9325 7.26969,-11.9325c1.49156,0 2.37844,0.3225 3.14437,0.68531l1.14219,-5.68406c-0.67188,-0.47031 -2.32469,-0.92719 -4.70313,-0.92719zM88.05594,66.58281c-7.26969,0 -10.97844,4.63594 -10.97844,10.2125c0,3.14437 1.80063,6.81281 6.5575,9.70187c2.92938,1.90813 4.47469,3.14438 4.47469,5.68406c0,2.2575 -1.54531,3.92375 -4.74344,3.92375c-1.96187,0 -4.32687,-0.57781 -5.72437,-1.34375l-0.98094,5.81844c1.12875,0.67188 3.87,1.3975 6.65156,1.3975c6.81281,0 11.5025,-4.17906 11.5025,-10.52156c0,-3.66844 -1.69312,-7.17563 -6.28875,-9.97063c-3.7625,-2.2575 -4.79719,-3.34594 -4.79719,-5.41531c0,-1.85437 1.3975,-3.61469 4.28656,-3.61469c1.96187,0 3.45344,0.57781 4.43437,1.19594l1.075,-5.83187c-1.02125,-0.61813 -3.19812,-1.23625 -5.46906,-1.23625zM108.40031,66.58281c-7.28313,0 -11.00531,4.63594 -11.00531,10.2125c0,3.14437 1.81406,6.81281 6.5575,9.70187c2.94281,1.90813 4.50156,3.14438 4.50156,5.68406c0,2.2575 -1.55875,3.92375 -4.75688,3.92375c-1.96187,0 -4.32687,-0.57781 -5.72437,-1.34375l-0.98094,5.81844c1.12875,0.67188 3.87,1.3975 6.65156,1.3975c6.81281,0 11.5025,-4.17906 11.5025,-10.52156c0,-3.66844 -1.69312,-7.17563 -6.28875,-9.97063c-3.7625,-2.2575 -4.79719,-3.34594 -4.79719,-5.41531c0,-1.85437 1.38406,-3.61469 4.28656,-3.61469c1.94844,0 3.45344,0.57781 4.43437,1.19594l1.075,-5.83187c-1.02125,-0.61813 -3.19812,-1.23625 -5.45562,-1.23625z"></path></g></g></svg>
                 <p className="uk-text-center">CSS</p>
               </div>
             </div>
@@ -195,43 +201,77 @@ function App() {
         <section className="uk-section">
           <div className="uk-padding">
             <h2>Projects</h2>
-            <div className="uk-padding">
-              <h3>Craft Gin Shop</h3>
-              <p>or the final project, I opted to work alone and created an e-commerce Craft Gin website, when tasked with the brief to create a full-stack Django and React application with CRUD functionality within one week.</p>
-            </div>
-            <div className="uk-padding">
-              <h3>Binge</h3>
-              <p>In a team of three, we collaborated to create a MERN application with CRUD functionality, using an Express API from a Mongo Database. We split the workload amongst ourselves, where I handled the majority of the front-end of the application. We created a Netflix-styled application to aid your choice of movie based on time, with ‘marathon’ and ‘sprint’ options. 
-              </p>
-            </div>
-            <div className="uk-padding">
-              <h3>Pub Quiz Generator</h3>
-              <p>In a team of two and with only two days to create the project, my partner and I worked together via VS Code Live Share, where we were tasked to create a React application that consumed a public API and chose to create a Pub Quiz Generator.
-              </p>
-            </div>
-            <div className="uk-padding">
-              <h3>Hoover Invaders</h3>
-              <p>My first project was to build a Space Invaders game using HTML, CSS and JavaScript in one week.</p>
+            <div className="uk-column-1-2">
+              <div>
+                <div className="uk-padding uk-card uk-card-default">
+                  <div className="uk-card-media-top">
+                    <img src="images/light.jpg" alt=""/>
+                  </div>
+                  <div className="uk-card-body">
+                    <h3 className="uk-card-title">Craft Gin Shop</h3>
+                    <p>For the final project, I opted to work alone and created an e-commerce Craft Gin website, when tasked with the brief to create a full-stack Django and React application with CRUD functionality within one week.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="uk-padding uk-card uk-card-default">
+                  <div className="uk-card-media-top">
+                    <img src="images/light.jpg" alt=""/>
+                  </div>
+                  <div className="uk-card-body">
+                    <h3 className="uk-card-title">Binge</h3>
+                    <p>In a team of three, we collaborated to create a MERN application with CRUD functionality, using an Express API from a Mongo Database. We split the workload amongst ourselves, where I handled the majority of the front-end of the application. We created a Netflix-styled application to aid your choice of movie based on time, with ‘marathon’ and ‘sprint’ options.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="uk-padding uk-card uk-card-default">
+                  <div className="uk-card-media-top">
+                    <img src="images/light.jpg" alt=""/>
+                  </div>
+                  <div className="uk-card-body">
+                    <h3 className="uk-card-title">Pub Quiz Generator</h3>
+                    <p>In a team of two and with only two days to create the project, my partner and I worked together via VS Code Live Share, where we were tasked to create a React application that consumed a public API and chose to create a Pub Quiz Generator.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="uk-padding uk-card uk-card-default">
+                  <div className="uk-card-media-top">
+                    <img src="images/light.jpg" alt=""/>
+                  </div>
+                  <div className="uk-card-body">
+                    <h3 className="uk-card-title">Hoover Invaders</h3>
+                    <p>My first project was to build a Space Invaders game using HTML, CSS and JavaScript in one week.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
         <section className="uk-section">
           <h2>Interests</h2>
-          <div className="uk-padding">
-            <h3>Snowboarding</h3>
-            <p>Try to go once a year, previous destinations include: Val d`Isère, St. Anton, Whistler and Verbier.
-            </p>
-          </div>
-          <div className="uk-padding">
-            <h3>Football</h3>
-            <p>Played in every previous employer`s football team, taking part in yearly tournaments when organised. </p>
+          <div className="uk-column-1-2">
+            <div className="uk-padding">
+              <h3>Snowboarding</h3>
+              <p>Try to go once a year, previous destinations include: Val d`Isère, St. Anton, Whistler and Verbier.
+              </p>
+            </div>
+            <div className="uk-padding">
+              <h3>Football</h3>
+              <p>Played in every previous employer`s football team, taking part in yearly tournaments when organised. </p>
+            </div>
           </div>
         </section>
         <section className="uk-section">
           <h2>Contact</h2>
-          <h4>Github</h4>
-          <h4>Linkedin</h4>
-          <h4>E-mail</h4>
+          <div className="uk-padding">
+            <div className="uk-column-1-3">
+              <h4>Github</h4>
+              <h4>Linkedin</h4>
+              <h4>E-mail</h4>
+            </div>
+          </div>
         </section>
       </div>
     </section>
