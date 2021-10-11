@@ -63,127 +63,127 @@ function App() {
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
                 <p className="uk-text-center">JavaScript</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/html.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/react-native--v1.png"/>
                 <p className="uk-text-center">React</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/css.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/css.png"/>
                 <p className="uk-text-center">Axios</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/sass.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/json.png"/>
                 <p className="uk-text-center">JSON</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
                 <p className="uk-text-center">Bootstrap</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
                 <p className="uk-text-center">Bulma</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/html.png"/>
+                <img id="icons" src="https://img.icons8.com/ios-filled/50/000000/python.png"/>
                 <p className="uk-text-center">Python</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/css.png"/>
+                <img id="icons" src="https://img.icons8.com/ios-filled/50/000000/django.png"/>
                 <p className="uk-text-center">Django</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/sass.png"/>
+                <img id="icons" src="https://img.icons8.com/windows/50/000000/node-js.png"/>
                 <p className="uk-text-center">Node</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img id="icons" src="https://img.icons8.com/color/48/000000/mongodb.png"/>
                 <p className="uk-text-center">MongoDB</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/html.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/html.png"/>
                 <p className="uk-text-center">Express</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/css.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/sql.png"/>
                 <p className="uk-text-center">PostgreSQL</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/sass.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/sass.png"/>
                 <p className="uk-text-center">Pipenv</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
-                <p className="uk-text-center">Github</p>
+                <img id="icons"  src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <p className="uk-text-center">GitHub</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/html.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/heroku.png"/>
                 <p className="uk-text-center">Herokuapp</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/css.png"/>
+                <img id="icons"  src="https://img.icons8.com/ios-filled/50/000000/google-analytics-logo.png"/>
                 <p className="uk-text-center">Google Analytics</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/sass.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/adobe-photoshop--v1.png"/>
                 <p className="uk-text-center">Photoshop</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/adobe-illustrator--v2.png"/>
                 <p className="uk-text-center">Illustrator</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/javascript--v1.png"/>
+                <img id="icons"  src="https://img.icons8.com/ios/50/000000/adobe-indesign--v2.png"/>
                 <p className="uk-text-center">InDesign</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/html.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/adobe-after-effects--v2.png"/>
                 <p className="uk-text-center">After Effects</p>
               </div>
             </div>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
-                <img src="https://img.icons8.com/ios/50/000000/css.png"/>
+                <img id="icons" src="https://img.icons8.com/ios/50/000000/adobe-premiere-pro--v1.png"/>
                 <p className="uk-text-center">Premier Pro</p>
               </div>
             </div>

@@ -51,6 +51,6 @@ min-width: 150px;
   margin-top: -150px;
 }
 
-.icons {
-  color: #d4af37;
+#icons {
+  filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
 }
