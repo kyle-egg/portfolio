@@ -27,6 +27,16 @@
   clip-path: polygon(0 0, 0% 0, 50% 50%, 0 80%); 
 }
 
+.egglogo {
+  background-image: url(../assets/kyleeggelhoefer.png);
+}
+
+.eggtext {
+  color: #d4af37;
+  font-weight: 100;
+  font-size: 20pt;
+  margin-top: 20px;
+}
 
 .uk-text-center {
   color: #d4af37;
@@ -56,12 +66,25 @@ min-height: 150px;
   filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
 }
 
+.experiencecard {
+  background-image: none;
+}
+
+.experiencelogo {
+  max-width: 350px;
+}
+
+#dorsettlogo {
+  padding: 30px 0px 50px 0px;
+}
+
 .projectcard {
   background-image: none;
 }
 
 .contacticons {
   height: 50px;
+  filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
 }
 
 #footer {

@@ -23,6 +23,7 @@ function App() {
 1861 82 59 212 120 285 135 30 6 64 13 75 15 33 6 47 6 124 -4z"/>
             </g>
           </svg>
+          <h1 className="eggtext">Kyle Eggelhoefer<br></br>Full Stack Engineer</h1>
           <div className="uk-padding uk-section uk-height-large uk-background-cover uk-light">
           </div>
         </section>
@@ -232,21 +233,21 @@ function App() {
             <h2>Experience</h2>
             <div className="uk-column-1-2">
               <div>
-                <div className="uk-padding uk-card uk-card-default">
+                <div className="experiencecard uk-padding uk-card uk-card-default">
                   <div className="uk-card-media-top">
-                    <img src="images/light.jpg" alt=""/>
+                    <img className="experiencelogo" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/15979/thumb_CMYK-Red-Black_Small_GeneralAssembly-Stacked.png" alt=""/>
                   </div>
                   <div className="uk-card-body">
-                    <h3 className="uk-card-title">Software Engineering Immersive Student<br></br>General Assembly</h3>
+                    <h3 className="uk-card-title">Software Engineering Student<br></br>General Assembly</h3>
                     <h5>June - September 2021</h5>
                     <p>Enrolled into a 3 month Software Engineering bootcamp, learning front-end, back-end and full-stack development and frameworks, creating a broad range of individual and team projects.</p>
                   </div>
                 </div>
               </div>
               <div>
-                <div className="uk-padding uk-card uk-card-default">
+                <div className="experiencecard uk-padding uk-card uk-card-default">
                   <div className="uk-card-media-top">
-                    <img src="images/light.jpg" alt=""/>
+                    <img id="dorsettlogo" className="experiencelogo" src="https://fareast.net.au/wp-content/uploads/2018/03/dorsett-hotel-450x127.png" alt=""/>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Area Marketing Manager<br></br>Dorsett Hospitality International</h3>
@@ -324,7 +325,7 @@ function App() {
           </div>
         </section>
         <section className="uk-section" id="footer">
-          <h2>Contact</h2>
+          <h2 className="uk-text-center">Contact</h2>
           <div className="uk-padding">
             <div className="uk-column-1-3">
               <div>
