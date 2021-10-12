@@ -36,7 +36,7 @@ function App() {
         </section>
         <section>
           <h2>Skills</h2>
-          <div className="uk-child-width-1-4 uk-child-width-1-6@s uk-grid-match uk-flex uk-flex-center@m uk-flex-wrap uk-flex-wrap-around uk-padding-large" uk-grid>
+          <div className="uk-child-width-1-3 uk-child-width-1-6@s uk-grid-match uk-flex uk-flex-center@m uk-flex-wrap uk-flex-wrap-around uk-padding-large" uk-grid>
             <div className="uk-animation-toggle" tabIndex="0">
               <div className="uk-card uk-card-default uk-card-body uk-animation-fade">
                 <svg width="50" height="50" viewBox="0 0 128 128">
@@ -230,18 +230,40 @@ function App() {
         <section className="uk-section">
           <div className="uk-padding">
             <h2>Experience</h2>
-            <h3>Software Engineering Immersive Student</h3>
-            <h3>General Assembly</h3>
-            <h5>June - September 2021</h5>
-            <p>Enrolled into a 3 month Software Engineering bootcamp, learning front-end, back-end and full-stack development and frameworks, creating a broad range of individual and team projects.</p>
+            <div className="uk-column-1-2">
+              <div>
+                <div className="uk-padding uk-card uk-card-default">
+                  <div className="uk-card-media-top">
+                    <img src="images/light.jpg" alt=""/>
+                  </div>
+                  <div className="uk-card-body">
+                    <h3 className="uk-card-title">Software Engineering Immersive Student<br></br>General Assembly</h3>
+                    <h5>June - September 2021</h5>
+                    <p>Enrolled into a 3 month Software Engineering bootcamp, learning front-end, back-end and full-stack development and frameworks, creating a broad range of individual and team projects.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="uk-padding uk-card uk-card-default">
+                  <div className="uk-card-media-top">
+                    <img src="images/light.jpg" alt=""/>
+                  </div>
+                  <div className="uk-card-body">
+                    <h3 className="uk-card-title">Area Marketing Manager<br></br>Dorsett Hospitality International</h3>
+                    <h5>2017 - 2021</h5>
+                    <p>A broad marketing role, solely managing all the marketing for the company`s London properties - Dorsett Shepherds Bush, Dorsett City and Jin Bo Law Skybar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section className="uk-section">
           <div className="uk-padding">
             <h2>Projects</h2>
-            <div className="uk-column-1-2">
+            <div className="uk-column-1-2@l">
               <div>
-                <div className="uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding uk-card uk-card-default">
                   <div className="uk-card-media-top">
                     <img src="images/light.jpg" alt=""/>
                   </div>
@@ -252,7 +274,7 @@ function App() {
                 </div>
               </div>
               <div>
-                <div className="uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding uk-card uk-card-default">
                   <div className="uk-card-media-top">
                     <img src="images/light.jpg" alt=""/>
                   </div>
@@ -263,7 +285,7 @@ function App() {
                 </div>
               </div>
               <div>
-                <div className="uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding uk-card uk-card-default">
                   <div className="uk-card-media-top">
                     <img src="images/light.jpg" alt=""/>
                   </div>
@@ -274,7 +296,7 @@ function App() {
                 </div>
               </div>
               <div>
-                <div className="uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding uk-card uk-card-default">
                   <div className="uk-card-media-top">
                     <img src="images/light.jpg" alt=""/>
                   </div>
@@ -301,13 +323,31 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="uk-section">
+        <section className="uk-section" id="footer">
           <h2>Contact</h2>
           <div className="uk-padding">
             <div className="uk-column-1-3">
-              <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-              <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
-              <img className="contacticons" src="https://img.icons8.com/ios-filled/50/000000/mail.png"/>
+              <div>
+                <div>
+                  <div>
+                    <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <img className="contacticons" src="https://img.icons8.com/ios-filled/50/000000/mail.png"/>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

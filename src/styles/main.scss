@@ -41,6 +41,7 @@ h2, h3, h4 {
 margin: 10px;
 padding: 30px;
 min-width: 150px;
+min-height: 150px;
 }
 
 .uk-section {
@@ -53,4 +54,21 @@ min-width: 150px;
 
 #icons {
   filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
+}
+
+.projectcard {
+  background-image: none;
+}
+
+.contacticons {
+  height: 50px;
+}
+
+#footer {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQFnLZLSztpNxw/company-background_10000/0/1600438816130?e=2159024400&v=beta&t=6TDkKfwall_8OChS2CeBzYAtlOfYG64Ywbsl4H_AGK8);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0% 0%, 100% 40%, 100% 100%, 0% 100%); 
 }
