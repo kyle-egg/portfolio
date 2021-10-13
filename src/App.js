@@ -306,7 +306,9 @@ function App() {
                     <a href="https://github.com/kyle-egg/sei-project-two" target="_blank" rel="noreferrer">
                       <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                     </a>
-                    <img className="contacticons" src="https://img.icons8.com/external-prettycons-solid-prettycons/50/000000/external-link-social-media-prettycons-solid-prettycons.png"/>
+                    <a href="https://pub-quiz-generator.netlify.app/" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://img.icons8.com/external-prettycons-solid-prettycons/50/000000/external-link-social-media-prettycons-solid-prettycons.png"/>
+                    </a>
                   </div>
                 </div>
               </div>
