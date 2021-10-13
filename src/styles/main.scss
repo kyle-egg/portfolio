@@ -100,6 +100,10 @@ min-height: 150px;
   filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
 }
 
+#brighten {
+  filter: brightness(250%)
+}
+
 #footer {
   background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQFnLZLSztpNxw/company-background_10000/0/1600438816130?e=2159024400&v=beta&t=6TDkKfwall_8OChS2CeBzYAtlOfYG64Ywbsl4H_AGK8);
   background-attachment: fixed;
