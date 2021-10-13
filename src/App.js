@@ -231,9 +231,9 @@ function App() {
         <section className="uk-section">
           <div className="uk-padding">
             <h2>Experience</h2>
-            <div className="uk-column-1-2">
+            <div className="uk-column-1-2@m">
               <div>
-                <div className="experiencecard uk-padding uk-card uk-card-default">
+                <div className="experiencecard uk-padding">
                   <div className="uk-card-media-top">
                     <img className="experiencelogo" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/15979/thumb_CMYK-Red-Black_Small_GeneralAssembly-Stacked.png" alt=""/>
                   </div>
@@ -245,72 +245,92 @@ function App() {
                 </div>
               </div>
               <div>
-                <div className="experiencecard uk-padding uk-card uk-card-default">
+                <div id="dorsettcard" className="experiencecard uk-padding">
                   <div className="uk-card-media-top">
                     <img id="dorsettlogo" className="experiencelogo" src="https://fareast.net.au/wp-content/uploads/2018/03/dorsett-hotel-450x127.png" alt=""/>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Area Marketing Manager<br></br>Dorsett Hospitality International</h3>
                     <h5>2017 - 2021</h5>
-                    <p>A broad marketing role, solely managing all the marketing for the company`s London properties - Dorsett Shepherds Bush, Dorsett City and Jin Bo Law Skybar</p>
+                    <p>A broad marketing role, solely managing all the marketing for the company&apos;s London properties - Dorsett Shepherds Bush, Dorsett City and Jin Bo Law Skybar.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="uk-section">
-          <div className="uk-padding">
+        <section className="projectssection uk-section">
+          <div>
             <h2>Projects</h2>
             <div className="uk-column-1-2@l">
               <div>
-                <div className="projectcard uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <img src="images/light.jpg" alt=""/>
+                    <iframe src="https://giphy.com/embed/c48gmvJZx7hAptem9f" width="480" height="232" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Craft Gin Shop</h3>
                     <p>For the final project, I opted to work alone and created an e-commerce Craft Gin website, when tasked with the brief to create a full-stack Django and React application with CRUD functionality within one week.</p>
+                    <a href="https://github.com/kyle-egg/project-four-frontend" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </a>
+                    <a href="https://kyle-egg-craft-gin.netlify.app/" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://img.icons8.com/external-prettycons-solid-prettycons/50/000000/external-link-social-media-prettycons-solid-prettycons.png"/>
+                    </a>
                   </div>
                 </div>
               </div>
               <div>
-                <div className="projectcard uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <img src="images/light.jpg" alt=""/>
+                    <iframe src="https://giphy.com/embed/9jmrELs9Ta1iHfnaCS" width="480" height="222" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Binge</h3>
                     <p>In a team of three, we collaborated to create a MERN application with CRUD functionality, using an Express API from a Mongo Database. We split the workload amongst ourselves, where I handled the majority of the front-end of the application. We created a Netflix-styled application to aid your choice of movie based on time, with ‘marathon’ and ‘sprint’ options.</p>
+                    <a href="https://github.com/kyle-egg/project-three-frontend" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </a>
+                    <img className="contacticons" src="https://img.icons8.com/external-prettycons-solid-prettycons/50/000000/external-link-social-media-prettycons-solid-prettycons.png"/>
                   </div>
                 </div>
               </div>
               <div>
-                <div className="projectcard uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <img src="images/light.jpg" alt=""/>
+                    <iframe src="https://giphy.com/embed/qegt1zU9Jrs4mjMBkt" width="480" height="224" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Pub Quiz Generator</h3>
                     <p>In a team of two and with only two days to create the project, my partner and I worked together via VS Code Live Share, where we were tasked to create a React application that consumed a public API and chose to create a Pub Quiz Generator.</p>
+                    <a href="https://github.com/kyle-egg/sei-project-two" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </a>
+                    <img className="contacticons" src="https://img.icons8.com/external-prettycons-solid-prettycons/50/000000/external-link-social-media-prettycons-solid-prettycons.png"/>
                   </div>
                 </div>
               </div>
               <div>
-                <div className="projectcard uk-padding uk-card uk-card-default">
+                <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <img src="images/light.jpg" alt=""/>
+                    <iframe src="https://giphy.com/embed/vMzkEdkMbbpnOvxu0X" width="480" height="232" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Hoover Invaders</h3>
                     <p>My first project was to build a Space Invaders game using HTML, CSS and JavaScript in one week.</p>
+                    <a href="https://github.com/kyle-egg/sei-project-one" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </a>
+                    <a href="https://kyle-egg.github.io/sei-project-one/" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://img.icons8.com/external-prettycons-solid-prettycons/50/000000/external-link-social-media-prettycons-solid-prettycons.png"/>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="uk-section">
+        <section className="interestssection uk-section">
           <h2>Interests</h2>
           <div className="uk-column-1-2">
             <div className="uk-padding">
@@ -331,21 +351,27 @@ function App() {
               <div>
                 <div>
                   <div>
-                    <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <a href="https://github.com/kyle-egg" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    </a>
                   </div>
                 </div>
               </div>
               <div>
                 <div>
                   <div>
-                    <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+                    <a href="https://www.linkedin.com/in/kyleeggelhoefer/" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
+                    </a>
                   </div>
                 </div>
               </div>
               <div>
                 <div>
                   <div>
-                    <img className="contacticons" src="https://img.icons8.com/ios-filled/50/000000/mail.png"/>
+                    <a href="mailto:keggelhoefer@gmail.com">
+                      <img className="contacticons" src="https://img.icons8.com/ios-filled/50/000000/mail.png"/>
+                    </a>
                   </div>
                 </div>
               </div>

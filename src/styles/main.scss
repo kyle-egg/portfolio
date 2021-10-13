@@ -68,18 +68,31 @@ min-height: 150px;
 
 .experiencecard {
   background-image: none;
+  min-width: 350px;
 }
 
 .experiencelogo {
-  max-width: 350px;
+  max-width: 300px;
 }
 
 #dorsettlogo {
-  padding: 30px 0px 50px 0px;
+  padding: 20px 5px 50px 0px;
+}
+
+.projectssection {
+  margin-top: -100px;
 }
 
 .projectcard {
   background-image: none;
+}
+
+.interestssection {
+  margin-top: -100px;
+}
+
+.ginimage {
+  background-image: url(../assets/ginscreen.png);
 }
 
 .contacticons {
