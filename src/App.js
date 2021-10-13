@@ -317,11 +317,13 @@ function App() {
               <div>
                 <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <iframe src="https://giphy.com/embed/vMzkEdkMbbpnOvxu0X" width="480" height="232" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                    <a href="https://kyle-egg.github.io/sei-project-one/" target="_blank" rel="noreferrer">
+                      <iframe src="https://giphy.com/embed/vMzkEdkMbbpnOvxu0X" width="480" height="232" frameBorder="1" allowFullScreen></iframe>
+                    </a>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Hoover Invaders</h3>
-                    <p>My first project was to build a Space Invaders game using HTML, CSS and JavaScript in one week.</p>
+                    <p>My first project was to build a Space Invaders game using HTML, CSS and JavaScript on my own in one week. I chose to theme the game on my pet dog milo and his love/hate relationship of Henry Hoovers.</p>
                     <a href="https://github.com/kyle-egg/sei-project-one" target="_blank" rel="noreferrer">
                       <img className="contacticons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                     </a>
