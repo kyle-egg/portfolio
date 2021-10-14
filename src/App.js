@@ -266,7 +266,7 @@ function App() {
               <div>
                 <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <iframe src="https://giphy.com/embed/c48gmvJZx7hAptem9f" width="480" height="232" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                    <img src="https://camo.githubusercontent.com/0e758c5b8c5fda0d471a3579ec9c11ac5a92df1f91afed04da85ba1b0adf9c7d/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f717749577442456d50746b303470534778452f67697068792e676966"/>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Craft Gin Shop</h3>
@@ -283,7 +283,7 @@ function App() {
               <div>
                 <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <iframe src="https://giphy.com/embed/9jmrELs9Ta1iHfnaCS" width="480" height="222" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                    <img src="https://camo.githubusercontent.com/ad0159012146211a0c504ff5fee45fee4a6c6ae0d7e6d648bed200c3f4da5673/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f396a6d72454c73395461316948666e6143532f67697068792e676966"/>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Binge</h3>
@@ -300,7 +300,7 @@ function App() {
               <div>
                 <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
-                    <iframe src="https://giphy.com/embed/qegt1zU9Jrs4mjMBkt" width="480" height="224" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                    <img src="https://camo.githubusercontent.com/48d7f0877c9296c8d2621f0d51bd4ad6906fa0684b69f1186065a1ecb26565ef/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f71656774317a55394a7273346d6a4d426b742f67697068792e676966"/>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Pub Quiz Generator</h3>
@@ -318,7 +318,7 @@ function App() {
                 <div className="projectcard uk-padding">
                   <div className="uk-card-media-top">
                     <a href="https://kyle-egg.github.io/sei-project-one/" target="_blank" rel="noreferrer">
-                      <iframe src="https://giphy.com/embed/vMzkEdkMbbpnOvxu0X" width="480" height="232" frameBorder="1" allowFullScreen></iframe>
+                      <img src="https://camo.githubusercontent.com/3cf8c0b7f49ee6fc26ac647716273811052aaecb2656270688210ab73ebf261e/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f764d7a6b45646b4d6262706e4f76787530582f67697068792e676966"/>
                     </a>
                   </div>
                   <div className="uk-card-body">
