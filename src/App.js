@@ -3,7 +3,7 @@ function App() {
     <section className="body">
       <div>
         <section className="uk-section uk-background-fixed uk-background-center-center uk-height-full uk-width-full" id="backgroundimage">
-          <img className="logo"/>
+          <img className="logo" src="https://github.com/kyle-egg/portfolio/blob/main/src/assets/Kyle-eggelhoefer.png?raw=true"/>
           <div className="uk-padding uk-section uk-height-large uk-background-cover uk-light">
           </div>
         </section>
