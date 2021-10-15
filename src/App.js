@@ -3,27 +3,7 @@ function App() {
     <section className="body">
       <div>
         <section className="uk-section uk-background-fixed uk-background-center-center uk-height-full uk-width-full" id="backgroundimage">
-          <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-            width="100.000000pt" height="100.000000pt" viewBox="0 0 512.000000 512.000000"
-            preserveAspectRatio="xMidYMid meet">
-            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-              fill="#d4af37" stroke="#000000">
-              <path className="path" fill="#d4af37" stroke="#000000" strokeWidth="5"  d="M2375 5105 c-339 -75 -685 -358 -982 -805 -445 -667 -773 -1670 -773
--2359 0 -529 201 -1011 577 -1383 298 -296 664 -478 1089 -543 134 -20 414
--20 548 0 583 89 1076 414 1384 913 183 296 282 648 282 1007 0 775 -398 1896
--908 2555 -92 118 -270 300 -375 381 -157 122 -317 200 -480 235 -84 17 -280
-17 -362 -1z m254 -315 c357 -47 732 -432 1056 -1085 196 -396 358 -867 434
--1265 87 -456 67 -785 -68 -1115 -166 -404 -518 -746 -921 -895 -199 -74 -366
--103 -580 -102 -430 1 -822 166 -1130 474 -244 243 -399 549 -455 898 -19 114
--21 343 -4 480 l12 99 51 22 c28 12 126 57 217 101 l166 80 100 -104 c55 -56
-155 -162 224 -235 115 -123 125 -131 139 -114 8 9 152 214 319 455 l305 437
-50 -49 c294 -280 427 -404 431 -400 7 7 -473 593 -488 595 -7 1 -151 -153
--322 -342 -170 -189 -313 -341 -316 -337 -4 4 -82 111 -174 237 -93 127 -169
-232 -171 234 -2 2 -102 -30 -223 -72 l-219 -76 20 72 c237 843 651 1567 1063
-1861 82 59 212 120 285 135 30 6 64 13 75 15 33 6 47 6 124 -4z"/>
-            </g>
-          </svg>
-          <h1 className="eggtext">Kyle Eggelhoefer<br></br>Full Stack Engineer</h1>
+          <img className="logo"/>
           <div className="uk-padding uk-section uk-height-large uk-background-cover uk-light">
           </div>
         </section>
