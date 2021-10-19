@@ -1,11 +1,21 @@
+import { fadeIn } from 'react-animations'
+import styled, { keyframes } from 'styled-components'
+
+const fadeInAnimation = keyframes`${fadeIn}`
+
+export const FadeInDiv = styled.div`
+  animation: 3s ${fadeInAnimation}`
+
 function App() {
   return (
     <section className="body">
       <div>
         <section className="uk-section uk-background-fixed uk-background-center-center uk-height-full uk-width-full" id="backgroundimage">
-          <img className="logo" src="https://github.com/kyle-egg/portfolio/blob/main/src/assets/Kyle-eggelhoefer.png?raw=true"/>
-          <div className="uk-padding uk-section uk-height-large uk-background-cover uk-light">
-          </div>
+          <FadeInDiv>
+            <img className="logo" src="https://github.com/kyle-egg/portfolio/blob/main/src/assets/Kyle-eggelhoefer.png?raw=true"/>
+            <div className="uk-padding uk-section uk-height-large uk-background-cover uk-light">
+            </div>
+          </FadeInDiv>
         </section>
         <section id="backgroundskills">
         </section>
