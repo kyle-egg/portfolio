@@ -74,6 +74,7 @@ min-height: 150px;
 
 #dorsettlogo {
   padding: 20px 5px 50px 0px;
+  margin-top: -50px;
 }
 
 .projectssection {
@@ -125,4 +126,58 @@ min-height: 150px;
 
 .path {
   stroke-dasharray: 20;
+}
+
+@media only screen and (max-width: 600px) {
+  #backgroundimage {
+    height: 200px;
+  }
+  #backgroundskills {
+    display: none;
+  }
+  .logo {
+    height: 150px;
+    filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
+    margin-top: 0px;
+  }
+  #about {
+    margin-top: 0px;
+  }
+  .uk-section {
+    padding: 20px;
+  }
+  .uk-card {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/949/338/392/blue-leather-cobalt-blue-texture-wallpaper-preview.jpg);
+    margin: 0px;
+    padding: 10px;
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .experiencecard {
+    background-image: none;
+    min-width: 200px;
+    padding: 20px;
+  }
+  
+  .experiencelogo {
+    width: 200px;
+  }
+  
+  #dorsettlogo {
+    padding: 0px;
+    width: 200px
+  }  
+  .interestssection {
+    margin-top: 0px;
+  }
+  .projectssection {
+    margin-top: 0px;
+  }
+  #footer {
+    clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 100%); 
+  }
+  .contacticons {
+    height: 30px;
+    filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
+  }
 }

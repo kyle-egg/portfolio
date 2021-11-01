@@ -219,11 +219,11 @@ function App() {
           </div>
         </section>
         <section className="uk-section">
-          <div className="uk-padding">
+          <div>
             <h2>Experience</h2>
             <div className="uk-column-1-2@m">
               <div>
-                <div className="experiencecard uk-padding">
+                <div className="experiencecard">
                   <div className="uk-card-media-top">
                     <img className="experiencelogo" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/15979/thumb_CMYK-Red-Black_Small_GeneralAssembly-Stacked.png" alt=""/>
                   </div>
@@ -328,15 +328,15 @@ function App() {
         </section>
         <section className="interestssection uk-section">
           <h2>Interests</h2>
-          <div className="uk-column-1-2">
-            <div className="uk-padding">
+          <div className="uk-column-1-2@m">
+            <div>
               <h3>Snowboarding</h3>
-              <p>Try to go once a year, previous destinations include: Val d`Isère, St. Anton, Whistler and Verbier.
+              <p>Try to go once a year, previous destinations include: <br></br>Val d`Isère, St. Anton, Whistler and Verbier.
               </p>
             </div>
-            <div className="uk-padding">
+            <div>
               <h3>Football</h3>
-              <p>Played in every previous employer`s football team, taking part in yearly tournaments when organised. </p>
+              <p>Played in every previous employer`s football team, <br></br>taking part in yearly tournaments when organised. </p>
             </div>
           </div>
         </section>
