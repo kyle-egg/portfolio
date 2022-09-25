@@ -1,3 +1,4 @@
+import JSSAImage from '.././src/assets/jssa.png'
 import { fadeIn } from 'react-animations'
 import styled, { keyframes } from 'styled-components'
 
@@ -218,10 +219,11 @@ function App() {
             </div>
           </div>
         </section>
+        
         <section className="uk-section">
           <div>
             <h2>Experience</h2>
-            <div className="uk-column-1-2@m">
+            <div className="uk-column-1-1@m">
               {/* <div>
                 <div className="experiencecard">
                   <div className="uk-card-media-top">
@@ -235,9 +237,9 @@ function App() {
                 </div>
               </div> */}
               <div>
-                <div id="dorsettcard" className="experiencecard uk-padding">
+                <div id="investcloudcard" className="experiencecard uk-padding">
                   <div className="uk-card-media-top">
-                    <img id="dorsettlogo" className="experiencelogo" src="https://www.investcloud.com/App_Themes/Default/images/ClientThemeImages/InvestCloud2017/IcLogo.png" alt=""/>
+                    <img id="investcloudlogo" className="experiencelogo" src="https://www.investcloud.com/App_Themes/Default/images/ClientThemeImages/InvestCloud2017/IcLogo.png" alt=""/>
                   </div>
                   <div className="uk-card-body">
                     <h3 className="uk-card-title">Frontend Developer<br></br>InvestCloud</h3>
@@ -251,7 +253,28 @@ function App() {
         </section>
         <section className="projectssection uk-section">
           <div>
-            <h2>Projects</h2>
+            <h2>Freelance Projects</h2>
+            <div className="uk-column-1-1@l">
+              <div>
+                <div className="projectcard uk-padding">
+                  <div className="uk-card-media-top">
+                    <img id="jssaimage" src={JSSAImage}/>
+                  </div>
+                  <div className="uk-card-body">
+                    <h3 className="uk-card-title">Jersey Smallbore Shooting Association</h3>
+                    <p>Created the website for the Official Shooting Association of Jersey in the Channel Islands. I was tasked in creating a frontend React application that was able to display general and club information, whilst publishing the latest result and fixture data from a Google Sheet backend.</p>
+                    <a href="https://jssa.je/" target="_blank" rel="noreferrer">
+                      <img className="contacticons" src="https://img.icons8.com/external-prettycons-solid-prettycons/50/000000/external-link-social-media-prettycons-solid-prettycons.png"/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="projectssection uk-section">
+          <div>
+            <h2>Bootcamp Projects</h2>
             <div className="uk-column-1-2@l">
               <div>
                 <div className="projectcard uk-padding">
