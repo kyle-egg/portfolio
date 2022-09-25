@@ -222,7 +222,7 @@ function App() {
           <div>
             <h2>Experience</h2>
             <div className="uk-column-1-2@m">
-              <div>
+              {/* <div>
                 <div className="experiencecard">
                   <div className="uk-card-media-top">
                     <img className="experiencelogo" src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/15979/thumb_CMYK-Red-Black_Small_GeneralAssembly-Stacked.png" alt=""/>
@@ -233,16 +233,16 @@ function App() {
                     <p>Enrolled into a 3 month Software Engineering bootcamp, learning front-end, back-end and full-stack development and frameworks, creating a broad range of individual and team projects.</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div>
                 <div id="dorsettcard" className="experiencecard uk-padding">
                   <div className="uk-card-media-top">
-                    <img id="dorsettlogo" className="experiencelogo" src="https://fareast.net.au/wp-content/uploads/2018/03/dorsett-hotel-450x127.png" alt=""/>
+                    <img id="dorsettlogo" className="experiencelogo" src="https://www.investcloud.com/App_Themes/Default/images/ClientThemeImages/InvestCloud2017/IcLogo.png" alt=""/>
                   </div>
                   <div className="uk-card-body">
-                    <h3 className="uk-card-title">Area Marketing Manager<br></br>Dorsett Hospitality International</h3>
-                    <h5>2017 - 2021</h5>
-                    <p>A broad marketing role, solely managing all the marketing for the company&apos;s London properties - Dorsett Shepherds Bush, Dorsett City and Jin Bo Law Skybar.</p>
+                    <h3 className="uk-card-title">Frontend Developer<br></br>InvestCloud</h3>
+                    <h5>March 2022 - Present</h5>
+                    <p>Developing client and advisor web portals for some of the biggest financial corporations in the world, including - London & Capital, Royal Bank of Canada and more.</p>
                   </div>
                 </div>
               </div>
