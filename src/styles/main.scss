@@ -1,187 +1,448 @@
-@import "uikit/src/scss/variables-theme.scss";
-@import "uikit/src/scss/mixins-theme.scss";
-@import "uikit/src/scss/uikit-theme.scss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-* { 
-  font-family: 'Prompt', sans-serif;
-  font-weight: 200;
+$bg-dark: #0a0f18;
+$card-bg: rgba(18, 26, 41, 0.75);
+$card-border: rgba(212, 175, 55, 0.25);
+$accent-gold: #d4af37;
+$accent-glow: rgba(212, 175, 55, 0.15);
+$text-main: #f1f5f9;
+$text-muted: #94a3b8;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  background-color: $bg-dark;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(212, 175, 55, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 85%, rgba(16, 112, 179, 0.08) 0%, transparent 40%);
+  background-attachment: fixed;
+  color: $text-main;
+  line-height: 1.6;
+}
+
+/* Glassmorphism Card Style */
+.glass-card {
+  background: $card-bg;
+  backdrop-filter: blur(12px);
+  border: 1px solid $card-border;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-color: rgba($accent-gold, 0.6);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px $accent-glow;
+  }
+}
+
+/* Gold Icon Filter shared across logos & icons */
+%gold-filter {
+  filter: invert(74%) sepia(34%) saturate(738%) hue-rotate(5deg) brightness(92%) contrast(88%);
+}
+
+/* Header & Nav */
+.nav-header {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: transparent;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 70%, rgba(0, 0, 0, 0) 100%);
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+
+    .nav-logo-wrapper {
+      width: 44px;
+      height: 44px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+
+      .nav-logo {
+        width: 44px;
+        height: 70px;
+        object-fit: cover;
+        object-position: top;
+        @extend %gold-filter;
+      }
+    }
+
+    .logo-text {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+
+      span {
+        color: $accent-gold;
+      }
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    a {
+      color: $text-muted;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $accent-gold;
+      }
+    }
+
+    .cta-btn {
+      border: 1px solid $accent-gold;
+      padding: 0.5rem 1.25rem;
+      border-radius: 20px;
+      color: $accent-gold;
+
+      &:hover {
+        background: $accent-gold;
+        color: $bg-dark;
+      }
+    }
+  }
+}
+
+/* Hero Section */
+.hero-section {
   text-align: center;
-}
+  padding: 5rem 2rem 4rem;
 
-#backgroundimage {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/949/338/392/blue-leather-cobalt-blue-texture-wallpaper-preview.jpg);
-  height: 450px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%); 
-  background-size: contain;
-}
+  .hero-logo-wrapper {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 0.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 
-#backgroundskills {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQFnLZLSztpNxw/company-background_10000/0/1600438816130?e=2159024400&v=beta&t=6TDkKfwall_8OChS2CeBzYAtlOfYG64Ywbsl4H_AGK8);
-  height: 300px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: -200px;
-  clip-path: polygon(0 0, 0% 0, 50% 50%, 0 80%); 
-}
-
-
-.eggtext {
-  color: #d4af37;
-  font-weight: 100;
-  font-size: 20pt;
-  margin-top: 20px;
-}
-
-.uk-text-center {
-  color: #d4af37;
-}
-
-h2, h3, h4 {
-  color: #000d16
-}
-
-.uk-card {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/949/338/392/blue-leather-cobalt-blue-texture-wallpaper-preview.jpg);
-margin: 10px;
-padding: 30px;
-min-width: 150px;
-min-height: 150px;
-}
-
-.uk-section {
-  padding: 100px;
-}
-
-#about {
-  margin-top: -150px;
-}
-
-#icons {
-  filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
-}
-
-.experiencecard {
-  background-image: none;
-  min-width: 350px;
-}
-
-.experiencelogo {
-  max-width: 300px;
-}
-
-#dorsettlogo {
-  padding: 20px 5px 50px 0px;
-  margin-top: -50px;
-}
-
-.projectssection {
-  margin-top: -100px;
-}
-
-.projectcard {
-  background-image: none;
-}
-
-#hoovertitle {
-  background-image: url(../assets/ginscreen.png);
-  height: 100px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  
-}
-
-#jssaimage {
-  width: 400px;
-}
-
-.interestssection {
-  margin-top: -100px;
-}
-
-.ginimage {
-  background-image: url(../assets/ginscreen.png);
-}
-
-.contacticons {
-  height: 50px;
-  filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
-}
-
-.logo {
-  height: 300px;
-  filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
-}
-
-#brighten {
-  filter: brightness(250%)
-}
-
-#footer {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQFnLZLSztpNxw/company-background_10000/0/1600438816130?e=2159024400&v=beta&t=6TDkKfwall_8OChS2CeBzYAtlOfYG64Ywbsl4H_AGK8);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  clip-path: polygon(0% 0%, 100% 40%, 100% 100%, 0% 100%); 
-}
-
-.path {
-  stroke-dasharray: 20;
-}
-
-@media only screen and (max-width: 600px) {
-  #backgroundimage {
-    height: 200px;
+    .hero-logo {
+      width: 180px;
+      height: 260px;
+      object-fit: cover;
+      object-position: top;
+      filter: drop-shadow(0 0 25px $accent-glow) invert(74%) sepia(34%) saturate(738%) hue-rotate(5deg) brightness(92%) contrast(88%);
+    }
   }
-  #backgroundskills {
-    display: none;
+
+  .hero-brand-name {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 1.5rem;
+
+    span {
+      color: $accent-gold;
+    }
   }
-  .logo {
-    height: 150px;
-    filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
-    margin-top: 0px;
+
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+    span {
+      color: $accent-gold;
+      background: linear-gradient(135deg, $accent-gold, #fef08a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
-  #about {
-    margin-top: 0px;
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: $text-muted;
+    margin: 1rem 0 2.5rem;
   }
-  .uk-section {
-    padding: 20px;
+
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
   }
-  .uk-card {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/949/338/392/blue-leather-cobalt-blue-texture-wallpaper-preview.jpg);
-    margin: 0px;
-    padding: 10px;
-    min-width: 100px;
-    min-height: 100px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &-primary {
+    background: $accent-gold;
+    color: $bg-dark;
+
+    &:hover {
+      box-shadow: 0 0 20px rgba($accent-gold, 0.4);
+    }
   }
-  .experiencecard {
-    background-image: none;
-    min-width: 200px;
-    padding: 20px;
+
+  &-secondary {
+    background: rgba(255, 255, 255, 0.05);
+    color: $text-main;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
   }
-  
-  .experiencelogo {
-    width: 200px;
+
+  &-outline {
+    border: 1px solid $accent-gold;
+    color: $accent-gold;
   }
-  
-  #dorsettlogo {
-    padding: 0px;
-    width: 200px
-  }  
-  .interestssection {
-    margin-top: 0px;
+}
+
+/* General Layout Sections */
+.section-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 40px;
+      height: 3px;
+      background: $accent-gold;
+      border-radius: 2px;
+    }
   }
-  .projectssection {
-    margin-top: 0px;
+}
+
+/* About Card */
+.about-card {
+  padding: 2.5rem;
+  p {
+    margin-bottom: 1rem;
+    color: $text-muted;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    &:last-child { margin-bottom: 0; }
   }
-  #footer {
-    clip-path: polygon(0% 0%, 100% 15%, 100% 100%, 0% 100%); 
+}
+
+/* Skills Grid (Strict 5x5 layout on desktop) */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
+
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    gap: 0.75rem;
+
+    .skill-icon-img {
+      width: 40px;
+      height: 40px;
+      @extend %gold-filter;
+    }
+
+    span {
+      font-size: 0.85rem;
+      color: $text-muted;
+    }
   }
-  .contacticons {
-    height: 30px;
-    filter: invert(80%) sepia(20%) saturate(1392%) hue-rotate(0deg) brightness(86%) contrast(92%);
+}
+
+/* Experience */
+.experience-card {
+  padding: 2rem;
+
+  .experience-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+
+    .experiencelogo {
+      max-width: 140px;
+    }
+
+    .company-name {
+      color: $accent-gold;
+      font-size: 0.9rem;
+
+      span {
+        color: $text-muted;
+      }
+    }
+  }
+
+  .experience-desc {
+    color: $text-muted;
+  }
+}
+
+/* Projects */
+.featured-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+
+  .project-image-container img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .badge {
+    background: rgba($accent-gold, 0.15);
+    color: $accent-gold;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    margin: 0.75rem 0;
+    font-size: 1.5rem;
+  }
+
+  p {
+    color: $text-muted;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+
+  .project-card {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .hoover {
+      width: 100%;
+      height: 160px;
+      object-fit: contain;
+    }
+
+    .card-content {
+      padding: 1.25rem;
+
+      h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+      p { font-size: 0.85rem; color: $text-muted; margin-bottom: 1rem; }
+      
+      .card-links {
+        display: flex;
+        gap: 1rem;
+
+        a {
+          color: $accent-gold;
+          text-decoration: none;
+          font-size: 0.85rem;
+          font-weight: 600;
+
+          &:hover { text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+
+/* Footer / Contact */
+.footer-container {
+  text-align: center;
+  padding: 5rem 2rem 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+  h2 { font-size: 2.25rem; margin-bottom: 0.5rem; }
+  p { color: $text-muted; margin-bottom: 2.5rem; }
+
+  .contact-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+
+    a {
+      display: inline-block;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+
+      .footer-contact-icon {
+        width: 44px;
+        height: 44px;
+        @extend %gold-filter;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+    color: darken($text-muted, 20%);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+.nav-header {
+    display: none; // Hides the navbar completely on mobile
+  }
+
+  .hero-title { font-size: 2rem; }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured-project {
+    grid-template-columns: 1fr;
   }
 }
